@@ -1,0 +1,32 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.header__logo {
+  height: 20vh;
+  object-fit: contain;
+  border-radius: 10vh;
+  padding: 5px;
+}
+
+.header__button {
+  border: none;
+  outline-width: 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.icon {
+  min-height: 8vh;
+  min-width: 8vw;
+  color: white;
+}
+.icon__text {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
